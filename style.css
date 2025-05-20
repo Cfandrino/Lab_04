@@ -71,3 +71,34 @@ header p {
   font-size: 1.1rem;
   color: #1a1a1a;
 }
+
+
+body {
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+}
+
+.card {
+  border-left: 6px solid #3f51b5;
+  padding: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(63, 81, 181, 0.2);
+}
+
+h1, h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  background: #222;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #90caf9;
+  text-decoration: none;
+}
